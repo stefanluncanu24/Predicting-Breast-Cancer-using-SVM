@@ -17,7 +17,7 @@ The dataset includes various features derived from the breast mass images, such 
 - **Data Preprocessing**:
   - Removal of non-essential columns such as 'id' and 'Unnamed: 32'.
   - Transformation of the 'diagnosis' column into a binary format where 'M' (malignant) is 1 and 'B' (benign) is 0.
-  - Feature Reduction: Eliminating highly correlated features like perimeter_mean, perimeter_se, perimeter_worst, area_mean, area_se, and area_worst to reduce multicollinearity and enhance model performance.
+  - Feature Reduction: eliminating highly correlated features like perimeter_mean, perimeter_se, perimeter_worst, area_mean, area_se, and area_worst to reduce multicollinearity and enhance model performance.
 
 - **Exploratory Data Analysis (EDA)**:
   - Use of heatmaps to visualize the correlation among features, identifying highly correlated features that may distort the predictive model.
