@@ -14,18 +14,25 @@ The dataset includes various features derived from the breast mass images, such 
 
 ### Project Structure
 
-- **Data Preprocessing**: Initial data cleaning and preparation by removing irrelevant columns and standardizing the dataset.
-- **Exploratory Data Analysis (EDA)**: Correlation analysis among features using heatmap visualizations to identify and eliminate multicollinear features.
-- **Data Splitting**: Segregating the dataset into training and testing sets to ensure unbiased model evaluation.
-- **Feature Scaling**: Application of StandardScaler to normalize feature scales, enhancing model predictability.
-- **Model Training**: Deployment of GridSearchCV to systematically explore multiple combinations of SVM parameters to find the most effective model settings.
-- **Model Evaluation**: Assessing the model performance using accuracy, F1 score, precision, recall, and a confusion matrix for detailed performance insights.
+- **Data Preprocessing**:
+  - Removal of non-essential columns such as 'id' and 'Unnamed: 32'.
+  - Transformation of the 'diagnosis' column into a binary format where 'M' (malignant) is 1 and 'B' (benign) is 0.
+  - Feature Reduction: Eliminating highly correlated features like perimeter_mean, perimeter_se, perimeter_worst, area_mean, area_se, and area_worst to reduce multicollinearity and enhance model performance.
 
-### Installation
-
-Clone this repository and install the necessary Python packages:
-
-```bash
-git clone https://github.com/your-username/breast-cancer-prediction.git
-cd breast-cancer-prediction
-pip install -r requirements.txt
+- **Exploratory Data Analysis (EDA)**:
+  - Use of heatmaps to visualize the correlation among features, identifying highly correlated features that may distort the predictive model.
+  - Detailed statistical analysis to understand the central tendencies and dispersion of the data.
+    
+- **Data Splitting**:
+  - The dataset is split into a 80-20 ratio for training and testing, ensuring a balanced approach to model training and evaluation.
+    
+- **Feature Scaling**:
+  - Application of `StandardScaler` to normalize the features, which enhances the predictive capability of the SVM model.
+    
+- **Model Training**:
+  - Configuration of GridSearchCV with SVM to explore various hyperparameters like kernel type, C, gamma, and degree.
+  - Utilization of cross-validation within GridSearchCV to ensure that the model is not overfitting and is generalized well.
+    
+- **Model Evaluation**:
+  - Calculation of accuracy, precision, recall, F1 score, and other relevant metrics to assess the effectiveness of the model.
+  
