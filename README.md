@@ -38,7 +38,7 @@ The dataset includes various features derived from the breast mass images, such 
     
       - High Accuracy: The model demonstrated a high accuracy of 98.25%, indicating exceptional performance in correctly classifying breast cancer instances.
         
-      - Confusion Matrix Analysis: The confusion matrix displayed 67 true positives and 45 true negatives, with no false positives and only 2 false negatives, highlighting the model's effectiveness in accurately predicting outcomes.
+      - Confusion Matrix Analysis: The confusion matrix displayed 67 true positives and 45 true negatives, with no false negatives and only 2 false positive, highlighting the model's effectiveness in accurately predicting outcomes.
 
         ![image](https://github.com/user-attachments/assets/cab74490-10d7-430f-a51b-53c3c3be29cb)
 
