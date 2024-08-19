@@ -33,7 +33,7 @@ The dataset includes various features derived from the breast mass images, such 
   - Configuration of GridSearchCV with SVM to explore various hyperparameters like kernel type, C, gamma, and degree.
   - Utilization of cross-validation within GridSearchCV to ensure that the model is not overfitting and is generalized well.
     
-- **Model Evaluation**:  Calculation of accuracy, precision, recall, F1 score, and other relevant metrics to assess the effectiveness of the model:
+- **Model Evaluation**:
     
       - High Accuracy: The model demonstrated a high accuracy of 98.25%, indicating exceptional performance in correctly classifying breast cancer instances.
         
@@ -45,5 +45,5 @@ The dataset includes various features derived from the breast mass images, such 
         
       - Robust F1 Score: An F1 score of 97.83% illustrates the model's balanced capability in both precision and recall, ensuring it is reliable and effective in practical scenarios.
    
-      ![image](https://github.com/user-attachments/assets/e540e481-42de-452f-b6a0-cde478b74e58)
+ ![image](https://github.com/user-attachments/assets/e540e481-42de-452f-b6a0-cde478b74e58)
   
