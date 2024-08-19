@@ -45,11 +45,14 @@ The dataset includes various features derived from the breast mass images, such 
   - With a precision score of 100%, the model identified all cases it predicted as malignant correctly, with no false positives.
     
 - **Impressive Recall**:
-  - The recall rate of 95.74% indicates the model's strong ability to identify the majority of true positive cases, although there were 2 instances where malignant cases were not detected.
+  - The recall rate of 95.74% indicates the model's strong ability to identify the majority of true positive cases.
 
 - **Robust F1 Score**:
   - An F1 score of 97.83% illustrates the model's balanced capability in both precision and recall, ensuring it is reliable and effective in practical scenarios.
 
 ![Model Evaluation Image](https://github.com/user-attachments/assets/e540e481-42de-452f-b6a0-cde478b74e58)
 
+### Contributions
+
+Contributions are encouraged! Feel free to fork this repo, implement your changes, and submit a pull request.
   
