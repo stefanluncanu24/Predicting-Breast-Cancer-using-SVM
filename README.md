@@ -33,17 +33,23 @@ The dataset includes various features derived from the breast mass images, such 
   - Configuration of GridSearchCV with SVM to explore various hyperparameters like kernel type, C, gamma, and degree.
   - Utilization of cross-validation within GridSearchCV to ensure that the model is not overfitting and is generalized well.
     
-- **Model Evaluation**:
+### Model Evaluation
+
+- **High Accuracy**:
+  - The model demonstrated a high accuracy of 98.25%, indicating exceptional performance in correctly classifying breast cancer instances.
+
+- **Confusion Matrix Analysis**:
+  - The confusion matrix displayed 45 true positives and 67 true negatives, with no false positives and only 2 false negatives, highlighting the model's effectiveness in accurately predicting outcomes.
+
+- **Perfect Precision**:
+  - With a precision score of 100%, the model identified all cases it predicted as malignant correctly, with no false positives.
     
-      - High Accuracy: The model demonstrated a high accuracy of 98.25%, indicating exceptional performance in correctly classifying breast cancer instances.
-        
-      - Confusion Matrix Analysis: The confusion matrix displayed 45 true positives and 67 true negatives, with no false positives and only 2 false negative, highlighting the model's effectiveness in accurately predicting outcomes.
-  
-      - Perfect Precision: With a precision score of 100%, the model identified all cases it predicted as malignant correctly, with no false positives.
-        
-      - Impressive Recall: The recall rate of 95.74% indicates the model's strong ability to identify the majority of true positive cases.
-        
-      - Robust F1 Score: An F1 score of 97.83% illustrates the model's balanced capability in both precision and recall, ensuring it is reliable and effective in practical scenarios.
-   
- ![image](https://github.com/user-attachments/assets/e540e481-42de-452f-b6a0-cde478b74e58)
+- **Impressive Recall**:
+  - The recall rate of 95.74% indicates the model's strong ability to identify the majority of true positive cases, although there were 2 instances where malignant cases were not detected.
+
+- **Robust F1 Score**:
+  - An F1 score of 97.83% illustrates the model's balanced capability in both precision and recall, ensuring it is reliable and effective in practical scenarios.
+
+![Model Evaluation Image](https://github.com/user-attachments/assets/e540e481-42de-452f-b6a0-cde478b74e58)
+
   
