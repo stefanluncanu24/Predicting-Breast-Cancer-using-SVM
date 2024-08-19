@@ -38,13 +38,13 @@ The dataset includes various features derived from the breast mass images, such 
     
       - High Accuracy: The model demonstrated a high accuracy of 98.25%, indicating exceptional performance in correctly classifying breast cancer instances.
         
-      - Confusion Matrix Analysis: The confusion matrix displayed 67 true positives and 45 true negatives, with no false negatives and only 2 false positive, highlighting the model's effectiveness in accurately predicting outcomes.
+      - Confusion Matrix Analysis: The confusion matrix displayed 45 true positives and 67 true negatives, with no false positives and only 2 false negative, highlighting the model's effectiveness in accurately predicting outcomes.
 
-        ![image](https://github.com/user-attachments/assets/cab74490-10d7-430f-a51b-53c3c3be29cb)
-
-      - Perfect Precision: Achieving a precision score of 100%, the model perfectly identified all malignant cases without any false positives, showcasing its precision and reliability.
+![image](https://github.com/user-attachments/assets/e540e481-42de-452f-b6a0-cde478b74e58)
+  
+      - Perfect Precision: With a precision score of 100%, the model identified all cases it predicted as malignant correctly, with no false positives.
         
-      - Impressive Recall: The recall rate of 95.74% indicates the model's strong ability to identify the majority of true positive cases, albeit missing a few.
+      - Impressive Recall: The recall rate of 95.74% indicates the model's strong ability to identify the majority of true positive cases.
         
       - Robust F1 Score: An F1 score of 97.83% illustrates the model's balanced capability in both precision and recall, ensuring it is reliable and effective in practical scenarios.
   
