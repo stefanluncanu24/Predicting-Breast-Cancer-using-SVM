@@ -52,6 +52,10 @@ The dataset includes various features derived from the breast mass images, such 
 
 ![Model Evaluation Image](https://github.com/user-attachments/assets/e540e481-42de-452f-b6a0-cde478b74e58)
 
+### Conclusion
+
+In conclusion, this project has demonstrated the applicability of machine learning, specifically through SVM and GridSearchCV, in predicting breast cancer.
+
 ### Contributions
 
 Contributions are encouraged! Feel free to fork this repo, implement your changes, and submit a pull request.
