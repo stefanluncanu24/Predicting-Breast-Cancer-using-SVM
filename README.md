@@ -2,6 +2,11 @@
 
 This repository hosts a Python-based machine learning project aimed at predicting breast cancer through the application of Support Vector Machines (SVM), enhanced with GridSearchCV for optimal hyperparameter tuning. The project leverages the Breast Cancer Wisconsin (Diagnostic) dataset from the UCI Machine Learning Repository, featuring diagnostic measurements from digitized images of breast mass fine needle aspirates.
 
+### File explanations
+
+- data.csv - dataset used
+- model.ipynb - code 
+
 ## Dataset
 The Breast Cancer Wisconsin (Diagnostic) dataset features measurements from digitized images of breast mass fine needle aspirates, used to predict whether a breast mass is benign or malignant.
 
